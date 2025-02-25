@@ -17,7 +17,7 @@ module tt_um_my_adder (
     input  wire       rst_n     
 );
 
-  assign uo_out = ui_in[3:0] + ui_in[7:4];  
+  assign uo_out = ui_in + ui_in;  
 
   assign uio_out = 0;
   assign uio_oe  = 0;
