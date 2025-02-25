@@ -22,6 +22,6 @@ module tt_um_my_adder (
   assign uio_out = 0;
   assign uio_oe  = 0;
 
-  wire _unused = &{ena, clk, rst_n};
+  wire _unused = &{ena, clk, rst_n, 1'b0};
 
 endmodule
