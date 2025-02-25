@@ -19,8 +19,8 @@ module tt_um_my_adder (
 
   assign uo_out = ui_in[3:0] + ui_in[7:4];  
 
-  assign uio_out = 8'b00000000;
-  assign uio_oe  = 8'b00000000;
+  assign uio_out = 0;
+  assign uio_oe  = 0;
 
   wire _unused = &{ena, clk, rst_n};
 
